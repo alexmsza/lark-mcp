@@ -1,0 +1,8 @@
+prompt = """
+Read and summarize the content of the Lark DocX document with Token/ID: `{{args}}`.
+
+Instructions:
+1. Use the `docx.v1.document.rawContent` tool to get the plain text.
+2. If the user provided a full URL, extract the token from it first.
+3. Present the raw content or a summary as requested.
+"""

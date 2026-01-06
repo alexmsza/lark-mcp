@@ -1,0 +1,8 @@
+prompt = """
+Search the Lark/Feishu Wiki for the following topic: `{{args}}`.
+
+Instructions:
+1. Use the `wiki.v1.node.search` tool.
+2. Provide `{{args}}` as the query keyword.
+3. List the results with their titles and provide the `node_token` or URL for reference.
+"""

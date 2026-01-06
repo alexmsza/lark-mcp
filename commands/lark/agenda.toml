@@ -1,0 +1,11 @@
+prompt = """
+Please retrieve the calendar events/agenda for the user.
+
+Input context: `{{args}}`
+
+Instructions:
+1. If the input contains a specific date, query for that date. If empty, default to "today".
+2. First, determine the primary calendar using `calendar.v4.calendar.primary` if the calendar ID is not known (or use 'primary' as the ID if supported).
+3. Then, use `calendar.v4.calendarEvent.list` to fetch the events for that time range.
+4. Summarize the events chronologically, showing time, summary, and location/meeting link.
+"""

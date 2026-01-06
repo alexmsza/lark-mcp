@@ -1,0 +1,8 @@
+prompt = """
+Find information about an employee named: `{{args}}`.
+
+Instructions:
+1. Use the `directory.v1.employee.search` tool to find the person.
+2. If multiple results are found, list them.
+3. Display key details like Department, Job Title, and Employee Type if available.
+"""
