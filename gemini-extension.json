@@ -1,6 +1,6 @@
 {
   "name": "lark-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Gemini CLI extension for Lark's MCP server.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
