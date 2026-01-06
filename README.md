@@ -75,7 +75,7 @@ This is required for the MCP server to authenticate with the Lark Open Platform.
   - For testing purposes, you can generate a user access token using the API Explorer.
   - Visit the [Lark API Explorer](https://open.feishu.cn/document/server-docs/docs/bitable-v1/app/create).
   - Click on **Get Token** (usually located on the right side or top bar of the debugging interface) to generate a temporary `user_access_token`.
-  - Copy this token into the `<YOUR_USER_TOKEN>` field.
+  - Copy this token into the `<your_user_token>` field.
 
 ## Setup
 
