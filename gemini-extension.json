@@ -1,7 +1,7 @@
 {
   "name": "lark-mcp",
-  "version": "1.0.1",
-  "description": "A Gemini CLI extension for Lark's MCP server.",
+  "version": "1.1.0",
+  "description": "A Gemini CLI & Antigravity extension for Lark Suite International MCP server (Asza Soluções Corporativas).",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "lark-mcp": {
@@ -14,8 +14,11 @@
         "<your_app_id>",
         "-s",
         "<your_app_secret>",
-        "-u",
-        "<your_user_token>"
+        "-d",
+        "https://open.larksuite.com",
+        "--oauth",
+        "--token-mode",
+        "auto"
       ]
     }
   }
